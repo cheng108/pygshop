@@ -24,7 +24,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.11.0",
 	"appid": "wx4518b4466c9b54da",
 	"projectname": "pyg",
 	"debugOptions": {
