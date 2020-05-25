@@ -2,5 +2,6 @@
     "files.associations": {
         "*.wxml": "html",
         "*.wxss": "css"
-    }
+    },
+    "editor.fontSize": 17
 }
