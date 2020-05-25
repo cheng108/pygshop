@@ -2,10 +2,10 @@
   <!-- 搜索框 开始-->
   <SearchInput></SearchInput>
   <!-- 搜索框 结束-->
-  <!-- 轮播图 开始-->
+  <!-- 轮播图  开始-->
   <view class="index_swiper">
     <!--
-      1  swiper标签存在默认的宽高
+      1  swiper标签存在默认的宽高 
         100% * 150px
       2  image标签也存在默认的宽高
         320px * 240px
