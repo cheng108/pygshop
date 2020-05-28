@@ -36,6 +36,8 @@
     <navigator 
     wx:for="{{catesList}}"
     wx:key="name"
+    url="/pages/category/index"
+    open-type="switchTab"
     >
     <image mode="widthFix" src="{{item.image_src}}" ></image>
   </navigator>
@@ -60,7 +62,9 @@
         wx:for="{{item1.product_list}}"
         wx:for-item="item2"
         wx:for-index="index2"
-        wx:key="name">
+        wx:key="name"
+        url="{{item2.navigator_url}}"
+        >
         <image mode="{{index2===0?'widthFix':'scaleToFill'}}" src="{{item2.image_src}}"></image>
       </navigator>
       </view>
@@ -68,4 +72,3 @@
   </view>
   <!-- 楼层 结束 -->
 </view>
-  
