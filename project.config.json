@@ -27,7 +27,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.1",
-	"appid": "wx20d5fbd5868744ac",
+	"appid": "wx4518b4466c9b54da",
 	"projectname": "pyg",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -99,6 +99,13 @@
 					"name": "个人中心",
 					"pathName": "pages/user/index",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "全部订单",
+					"pathName": "pages/order/index",
+					"query": "type=1",
 					"scene": null
 				}
 			]
